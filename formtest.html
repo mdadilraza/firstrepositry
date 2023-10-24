@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1><u>Student Registation Form Using Table In Html</u></h1></center>
+    <form action="#">
+        <center>
+            <table style="border: 2px solid black;background-color: red;" cellspacing="20px">
+                <tr>
+                    <td> First Name  </td>
+                <td></td>
+                <td><input type="text" pattern="[a-z A-Z]{3,50}" title=" Max 50 Characters Allowed" placeholder="Adil">
+                </td>
+                <td><p>(Max 50 Charcters allowed)</p></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td></td>
+                    <td>
+                        <input type="text" pattern="[a-z A-Z]{3,50}" title=" Max 50 Characters Allowed" placeholder="Raza">
+                    </td>
+                    <td><p>(Max 50 Charcters allowed)</p></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td></td>
+                    <td ><input type="email" pattern="[a-z ]{3,15}" title="min 3 Max 15 Characters" placeholder="adilraza@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                <td></td>
+                <td><input type="text" pattern="[6-9]{1} [0-9]{9}" title="10 Digits Allowed" placeholder="7842xxxxxx"></td>
+                <td><p>(10 Digits allowed)</p></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                <td></td>
+                <td><input type="radio"  name="gender" values="Female">Female
+                    <input type="radio" name="gender" values="Male">Male
+                
+
+                </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>DOB</td>
+                        <td></td>
+                        <td> 
+                            <select name="" id="">DD
+                                <option value="dd">dd</option>
+                            <option value="">01</option>
+                            <option value="">02</option>
+                            <option value="">03</option>
+                            <option value="">04</option>
+                            <option value="">05</option>
+                            <option value="">06</option>
+                            <option value="">07</option>
+                            <option value="">08</option>
+                            <option value="">09</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                            <select name="" id="">Mon
+                                <option value="Mon">Mon</option>
+                            <option value="">Jan</option>
+                            <option value="">Feb</option>
+                            <option value="">Mar</option>
+                            <option value="">Apr</option>
+                            <option value="">May</option>
+                            <option value="">Jun</option>
+                            <option value="">Jul</option>
+                            <option value="">Aug</option>
+                            <option value="">Sep</option>
+                            <option value="">Aug</option>
+                            <option value="">Nov</option>
+                            <option value="">Dec</option>
+                        </select>
+                            <select name="" id="">YYYY
+                                <option value="yyyy">YYYY</option>
+                            <option value="">1995</option>
+                            <option value="">1996</option>
+                            <option value="">1997</option>
+                            <option value="">1998</option>
+                            <option value="">1999</option>
+                            <option value="">2000</option>
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                <td></td>
+                <td><textarea name="" id="" cols="30" rows="8" placeholder="Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td></td>
+                    <td><input type="text" pattern="[a-z A-Z]{3,50}" title=" Max 50 Characters Allowed" placeholder="Hyderabad"></td>
+                    <td><p>(Max 50 Charcters allowed)</p></td>
+                </tr>
+                <tr>
+                    <td>Pin Code</td>
+                <td></td>
+                <td><input type="text" pattern="[0-9]{6}" title="Pin code Must be 6 digits" placeholder="501301"></td>
+                <td><p>Max 6 Characters Allowed</p></td>
+                </tr>
+                <tr>
+                    <td>State </td>
+                <td></td>
+                <td><input type="search" list="state" pattern="[a-z A-Z]{3,50}" title=" Max 50 Characters Allowed" placeholder="Telangana" >
+                    <datalist id="state">
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chattisgarh">Chattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujrat">Gujrat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttrakhand">Uttrakhand</option>
+                        <option value="Uttar pradesh">Uttar pradesh</option>
+                        <option value="West Bengal">West Bengal</option>
+                        
+                        
+                    </datalist>
+                </td>
+                <td><p>(Max 50 Charcters allowed)</p></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td></td>
+                    <td>
+                        <input type="text" placeholder="India">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td>
+
+                    </td>
+                    <td><input type="checkbox"  name="qualification" values="High School(10th)">High School(10th) <br>
+                        <input type="checkbox" name="qualification" values="Higher School(12th)">Higher School(12th) <br>
+                        <input type="checkbox"  name="qualification" values="Graduation(Bachlers)">Graduation(Bachlers) <br>
+                        <input type="checkbox"  name="qualification" values="Post Graduation(Masters)">Post Graduation(Masters) <br>
+                        <input type="checkbox"  name="qualification" values="phd">phd <br>
+                </tr>
+                <tr>
+                    <td>Cource Applied</td>
+                    <td></td>
+                    <td>
+                        <input type="radio"  name="gender" values="BCA">BCA <br>
+                    <input type="radio" name="gender" values="B.com">B.com <br>
+                    <input type="radio"  name="gender" values="BA">BA <br>
+                    <input type="radio" name="gender" values="Btech">Btech <br>
+                
+                
+                    </td>
+                </tr>
+                <tr >
+              
+                    <td colspan="6">
+                     <center>
+                     <input type="submit" name="" id="">
+                     <input type="reset" name="" id="">
+                 </center>
+                    </td>
+                
+                 </tr>
+            </table>
+        </center>
+    </form>
+    
+</body>
+</html>
